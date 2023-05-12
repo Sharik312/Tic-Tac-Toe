@@ -11,7 +11,6 @@ public:
     void draw(int *coordinate,   char character);
     void winCheck(char &winner);
 
-protected:
     char gameBoard[3][3] = {
         {'-', '-', '-'},
         {'-', '-', '-'},

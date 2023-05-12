@@ -14,7 +14,7 @@ public:
     void setName(string name);
     void getName();
 
-private:
+protected:
     string _name;
     int _score;
 };
